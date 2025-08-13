@@ -31,9 +31,9 @@ function getPrice(product) {
     return price;
 }
 
-const price = getPrice({ name: 'chulkani dandi', price: 35, color: 'blue' })
-const price = getPrice(5)
-console.log(price)
+const price1 = getPrice({ name: 'chulkani dandi', price: 35, color: 'blue' })
+const price2 = getPrice(5)
+console.log(price1, price2)
 
 function getSecond(numbers) {
     if(Array.isArray(numbers) === false){
